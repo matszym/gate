@@ -1,0 +1,8 @@
+{
+  "name": "Gate",
+  "version": "0.0.1",
+  "dependencies": {
+    "chip-gpio": "^1.1.0",
+    "firebase": "^3.3.0"
+  }
+}
