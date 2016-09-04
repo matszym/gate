@@ -32,9 +32,7 @@ db.ref("gate").orderByChild('timestamp').startAt(isodate).on("child_added", func
 function openGate() {
   console.log("--open--");   
   on();
-  setTimeout(function() {
-    off();
-  }, 1000);
+  setTimeout(off, 1000);
 };
 
 function on() {
